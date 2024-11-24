@@ -54,7 +54,7 @@ export default function Home() {
 
           <div className="w-full max-w-2xl mb-12">
             <h2 className="text-2xl font-bold mb-4">Quick Start</h2>
-            <CodeBlock code="npx create-simpli-app my-app" />
+            <CodeBlock code="npx simpliv1 create my-app" />
           </div>
 
           <div className="flex gap-4">
