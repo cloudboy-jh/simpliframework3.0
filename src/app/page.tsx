@@ -1,4 +1,4 @@
-import { Code2, Zap, Shield, Palette } from 'lucide-react';
+import { Code2, Zap, BrainCircuit, Database } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import simplicon from './assets/simplicon.png';
@@ -25,15 +25,15 @@ export default function Home() {
           </h1>
           
           <p className="text-xl mb-12 max-w-2xl">
-            A modern, extensible framework for building beautiful applications with ease.
-            Powered by Next.js, TypeScript, and Tailwind CSS.
+            A modern, extensible framework for building working applications.
+            Powered by Next.js, Supabase, OpenAi, and shadcn-ui.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             <FeatureCard
               icon={<Code2 className="h-8 w-8" />}
-              title="Type-Safe"
-              description="Built with TypeScript for robust development"
+              title="Ship-Safe"
+              description="Build working apps that scale"
             />
             <FeatureCard
               icon={<Zap className="h-8 w-8" />}
@@ -41,14 +41,14 @@ export default function Home() {
               description="Optimized for performance and quick development"
             />
             <FeatureCard
-              icon={<Shield className="h-8 w-8" />}
-              title="Secure"
-              description="Built-in authentication and security features"
+              icon={<BrainCircuit className="h-8 w-8" />}
+              title="AI-Powered"
+              description="AI built-in to power your ideas"
             />
             <FeatureCard
-              icon={<Palette className="h-8 w-8" />}
-              title="Beautiful"
-              description="Pre-built components and themes"
+              icon={<Database className="h-8 w-8" />}
+              title="Database Ready"
+              description="Set up your DB in days not months"
             />
           </div>
 
